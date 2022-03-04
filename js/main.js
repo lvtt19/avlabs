@@ -1,4 +1,4 @@
-const form = document.querySelector("form"),
+const form = document.querySelector('#form'),
     fileInput = document.querySelector(".upload-model__upload-file-input"),
     progressArea = document.querySelector(".upload-model__progress-area"),
     uploadedArea = document.querySelector(".upload-model__uploaded-area");
@@ -21,7 +21,7 @@ fileInput.onchange = ({ target }) => {
 
 function uploadFile(name) {
     let xhr = new XMLHttpRequest();
-    xhr.open("POST", "php/upload.php");
+    xhr.open("POST", "php/message.php");
     xhr.upload.addEventListener("progress", ({ loaded, total }) => {
         let fileLoaded = Math.floor((loaded / total) * 100);
         let fileTotal = Math.floor(total / 1000);

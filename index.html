@@ -4,8 +4,18 @@
 <head>
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+   <meta name="description" content="">
+   <meta name="keywords" content="">
+   <meta name="robots" content="">
+
+   <meta name="Author" content="">
+   <meta name="Copyright" content="">
+   <meta name="Address" content="">
+
    <link rel="stylesheet" href="/avlabs/css/style.css">
+
    <title>AVLabs - 3D Printing</title>
 </head>
 
@@ -18,8 +28,8 @@
                   <nav class="menu">
                      <a href="/avlabs/"><img src="/avlabs/img/icons/AVL_logo.png" alt="AVL_logo" class="menu__logo"></a>
                      <ul class="menu__list">
-                        <li><a href="#mainblock">works</a></li>
-                        <li><a href="#contact-us">contact us</a></li>
+                        <li><a href="#">works</a></li>
+                        <li><a href="#">contact us</a></li>
                      </ul>
                   </nav>
                   <div class="maintitle">
@@ -27,16 +37,15 @@
                   </div>
                   <div class="more">
                      <div class="more__tit">
-                        <a href="#mainblock">Learn more</a>
+                        <a href="#">Learn more</a>
                      </div>
-                     <a href="#mainblock" class="more__arrow"><img src="/avlabs/img/icons/arrowdown.png"
-                           alt="arrowdown"></a>
+                     <a href="#" class="more__arrow"><img src="/avlabs/img/icons/arrowdown.png" alt="arrowdown"></a>
                   </div>
                </div>
             </div>
          </header>
       </section>
-      <div class="mainblock" id="mainblock">
+      <div class="mainblock">
          <div class="ourworks">
             <div class="container">
                <div class="ourworks__content">
@@ -61,7 +70,7 @@
                            <img src="/avlabs/img/examples/model_2.png" alt="model_2" class="item__img">
                         </div>
                         <div class="item__title">
-                           Model 1
+                           Model 2
                         </div>
                         <div class="item__description">
                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt eum architecto facilis
@@ -73,7 +82,7 @@
                            <img src="/avlabs/img/examples/model_3.png" alt="model_3" class="item__img">
                         </div>
                         <div class="item__title">
-                           Model 1
+                           Model 3
                         </div>
                         <div class="item__description">
                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt eum architecto facilis
@@ -85,7 +94,7 @@
                            <img src="/avlabs/img/examples/model_4.png" alt="model_4" class="item__img">
                         </div>
                         <div class="item__title">
-                           Model 1
+                           Model 4
                         </div>
                         <div class="item__description">
                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt eum architecto facilis
@@ -97,7 +106,7 @@
                            <img src="/avlabs/img/examples/model_5.png" alt="model_5" class="item__img">
                         </div>
                         <div class="item__title">
-                           Model 1
+                           Model 5
                         </div>
                         <div class="item__description">
                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt eum architecto facilis
@@ -109,7 +118,7 @@
                            <img src="/avlabs/img/examples/model_6.png" alt="model_6" class="item__img">
                         </div>
                         <div class="item__title">
-                           Model 1
+                           Model 6
                         </div>
                         <div class="item__description">
                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt eum architecto facilis
@@ -120,7 +129,7 @@
                </div>
             </div>
          </div>
-         <div class="contact-form" id="contact-us">
+         <div class="contact-form">
             <div class="container">
                <div class="contact-form__title title">
                   contact us
@@ -142,17 +151,17 @@
                      </div>
                      <div class="message-form__textarea">
                         <p class="message-form__message">
-                           Your message <span class="star">*</span>
+                           Your message
                         </p>
                         <textarea tabindex="3" placeholder="Give us more specific details or wright your question"
                            class="message-form__inputtextarea"></textarea>
                      </div>
                   </div>
                   <div class="contact-form__upload-model">
-                     <div class="upload-model__upload-box">
+                     <div class="upload-model__upload-box" id="form">
                         <div class="upload-model__upload-area">
-                           <input type="file" id="uploadfile" tabindex="5" multiple name="file"
-                              class="upload-model__upload-file-input" hidden />
+                           <input type="file" tabindex="5" multiple name="file" class="upload-model__upload-file-input"
+                              hidden />
                            <img src="/avlabs/img/icons/upload-file.png" alt="upload file"></img>
                            <p>Browse File to Upload</p>
                         </div>

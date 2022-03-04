@@ -322,7 +322,7 @@ h1, h2, h3, h4, h5, h6 { font-size: inherit; font-weight: 400; }
 
 .upload-model__progress-area::-webkit-scrollbar, .upload-model__uploaded-area::-webkit-scrollbar { overflow: hidden; }
 
-.upload-model__check { position: relative; min-width: 50px; height: 25px; -webkit-appearance: none; -moz-appearance: none; appearance: none; outline: none; background-color: #4727c7; border-radius: 12.5px; cursor: pointer; -webkit-transition: 0.3s; transition: 0.3s; }
+.upload-model__check { position: relative; min-width: 51px; height: 25px; -webkit-appearance: none; -moz-appearance: none; appearance: none; outline: none; background-color: #4727c7; border-radius: 12.5px; cursor: pointer; -webkit-transition: 0.3s; transition: 0.3s; }
 
 .upload-model__check:checked { background-color: #f0f0f0; }
 
