@@ -104,6 +104,8 @@ h1, h2, h3, h4, h5, h6 { font-size: inherit; font-weight: 400; }
 
 .menu__list a::after { content: ""; background-color: #ffd316; height: 2px; bottom: -8px; width: 0%; left: 50%; position: absolute; -webkit-transition: width 0.3s ease-in-out; transition: width 0.3s ease-in-out; -webkit-transform: translateX(-50%); transform: translateX(-50%); }
 
+@media (max-width: 1025px) { .menu__list a::after { display: none; } }
+
 .menu__list a:hover::after { width: 100%; }
 
 .maintitle { text-align: center; font-size: 50px; font-weight: 700; text-transform: uppercase; color: #ffffff; }
